@@ -1,0 +1,9 @@
+<div class="card-container" style="background-color: #93d693">
+    <h2>This is the test 1 component</h2>
+    <div class="input-container">
+        <input type="text" ng-model="$ctrl.inputText">
+        <button class="primary-button" ng-click="$ctrl.sendMessage()">Send</button>
+    </div>
+    
+    <p ng-if="$ctrl.receivedMessageFromView2()">test-2 Component: {{$ctrl.receivedMessageFromView2()}}</p>
+</div>
